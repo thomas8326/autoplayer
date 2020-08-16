@@ -1,0 +1,12 @@
+<ul class="slide-container" #slideGallery>
+  <ng-container *ngFor="let rooms of gallery; let i = index" >
+    <li @imageSlide *ngIf="slideIndex === i" class="exhibition-room" #slideExhibitionRoom>
+        <div *ngFor="let item of rooms" class="picture">
+          <ng-container 
+            [ngTemplateOutlet]="template"
+            [ngTemplateOutletContext]="{item: item, index: i}"
+          ></ng-container>
+        </div>
+    </li>
+  </ng-container>
+</ul>

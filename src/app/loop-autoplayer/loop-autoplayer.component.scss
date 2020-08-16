@@ -1,0 +1,19 @@
+:host {
+    width: 100%;
+}
+
+.main-container {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.flex {
+    display: flex;
+}
+
+.slide-container {
+    width: auto;
+    display: flex;
+    position: relative;
+}
