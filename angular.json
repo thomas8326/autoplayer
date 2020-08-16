@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "autoplayer"
+    }
+  },
+  "defaultProject": "autoplayer",
+  "cli": {
+    "analytics": false
+  }
 }
